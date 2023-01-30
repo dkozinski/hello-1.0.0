@@ -1,0 +1,24 @@
+Source: hello
+Priority: optional
+Maintainer: Dawid Kozinski <dkozinsk@gmail.com>
+Build-Depends: cmake, debhelper (>= 10)
+Standards-Version: 4.1.2
+Section: libs
+Homepage: https://github.com/mpeg5/xeve
+Vcs-Git: https://github.com/mpeg5/xeve.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/hello.git
+
+Package: hello-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: hello (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: hello
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

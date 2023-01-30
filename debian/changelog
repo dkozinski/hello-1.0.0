@@ -1,0 +1,12 @@
+hello (1.0.0-1ubuntu1) focal; urgency=medium
+
+  * Provided support for focal
+
+ -- Dawid Kozinski <dkozinsk@interia.pl>  Thu, 19 Jan 2023 11:30:08 +0100
+
+
+hello (1.0.0-1) bionic; urgency=medium
+
+  * Initial release (Closes: #0001)  <0001 is the bug number of your ITP>
+
+ -- Dawid Kozinski <dkozinsk@interia.pl>  Tue, 10 Jan 2023 13:48:32 +0100
